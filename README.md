@@ -11,8 +11,9 @@ Every time I analyze the results of the DL experiment, it is cumbersome to reimp
 ### Clustering quality
 
 - Sum of squared error(SSE) [^1]
-- Normalized sum of squared error(nSSE)[^1]
-- Intra-class to inter-class variance ratio[^2]
+- SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
+- Measurements of feature clustering(R_fc)[^2]
+- Measurements of hyperplane variation(R_hv)[^2]
 
 ### Pretty print
 
