@@ -1,6 +1,6 @@
 <h1 align="center">Toolkits</h1> <div align="center"> <strong> :hammer_and_wrench: Analysis tools useful for DL experiments :hammer_and_pick: </strong> </div> <br />
 
-Every time I analyze the results of the DL experiment, it is cumbersome to reimplement the analysis functions every time, so I implemented the functions I use frequently. This work is done with [Solang Kim](https://github.com/solangii), and we are practicing a very simple git-flow workflow through this repository.
+Every time I analyze the results of the DL experiment, it is cumbersome to reimplement the analysis functions every time, so I implemented the functions I use frequently. This work is done with [Solang Kim](https://github.com/solangii) :raised_hands:
 
 ## Modules
 
