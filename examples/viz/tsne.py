@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))))
 from examples.dataset.pseudo_cluster import ClusterData
-from toolkits.viz.tsne import tsne
+from toolkits.viz import tsne
 
 
 def main():
