@@ -1,9 +1,9 @@
 Metadata-Version: 1.2
 Name: dl-toolkits
-Version: 1.0
-Summary: dl-toolkits
+Version: 1.0.0.3
+Summary: Deep Learning Analysis Toolkits
 Home-page: https://github.com/yuhodots/toolkits
-Author: Yuho Jeong
+Author: ['Yuho Jeong', 'Solang Kim']
 License: UNKNOWN
 Description: UNKNOWN
 Keywords: dl,toolkits
