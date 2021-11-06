@@ -1,3 +1,5 @@
 __pycache__/
 .idea
 examples/results/tsne.png
+examples/results/data.npz
+examples/results/data.pkl
