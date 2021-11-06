@@ -8,7 +8,7 @@ class ClusterData(object):
             n_sample=300,
             n_cluster=5,
             h_dim=64,
-            seed=0
+            seed=42
     ):
 
         self.n_sample = n_sample
