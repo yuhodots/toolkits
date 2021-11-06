@@ -1,16 +1,18 @@
-<h1 align="center">Toolkits</h1> <div align="center"> <strong> :hammer_and_wrench: Analysis tools useful for DL experiments :hammer_and_pick: </strong> <br/> <img src="https://img.shields.io/badge/version-1.0.0-green.svg"><img src="https://img.shields.io/badge/LICENSE-TBD-orange.svg"></div>  <br/>
+<h1 align="center">Toolkits</h1> <div align="center"> <strong> :hammer_and_wrench:&nbsp; Analysis tools useful for DL experiments &nbsp;:hammer_and_pick: </strong></div><br/>
+<div align="center"><img src="https://img.shields.io/badge/version-1.0.0-green.svg">&nbsp;<img src="https://img.shields.io/badge/LICENSE-TBD-orange.svg"></div><br/>
+
 
 Every time I analyze the results of the DL experiment, it is cumbersome to reimplement the analysis functions every time, so I implemented the functions I use frequently. This work is done with [Solang Kim](https://github.com/solangii) :raised_hands:
 
 ## Installation
 
-You can install the package with the `pip` command. Python>=3 are supported.
+You can install the package with `pip` command. Python>=3 are supported.
 
 ```
 pip install dl-toolkits
 ```
 
-You can check the version of the package.
+You can check the version of the package using the following commands.
 
 ```python
 import toolkits
