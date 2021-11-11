@@ -8,22 +8,14 @@ def configuration(parent_package="", top_path=None):
 
     from numpy.distutils.misc_util import Configuration
     config = Configuration(None, parent_package, top_path)
-    libraries = []
-    if os.name == "posix":
-        libraries.append("m")
-
     config.add_subpackage("toolkits")
-    config.add_subpackage("toolkits/cluster")
-    config.add_subpackage("toolkits/pprint")
-    config.add_subpackage("toolkits/utils")
-    config.add_subpackage("toolkits/viz")
     return config
 
 
 def setup_package():
     metadata = dict(
         name='dl-toolkits',
-        version='1.0.0.7',
+        version='1.0.0.9',
         description='Deep Learning Analysis Toolkits',
         author=['Yuho Jeong', 'Solang Kim'],
         url='https://github.com/yuhodots/toolkits',
