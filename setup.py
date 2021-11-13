@@ -15,7 +15,7 @@ def configuration(parent_package="", top_path=None):
 def setup_package():
     metadata = dict(
         name='dl-toolkits',
-        version='1.0.0.9',
+        version='1.0.1',
         description='Deep Learning Analysis Toolkits',
         author=['Yuho Jeong', 'Solang Kim'],
         url='https://github.com/yuhodots/toolkits',
