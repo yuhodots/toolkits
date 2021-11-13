@@ -5,11 +5,37 @@ Sum of squared errors (SSE)
 import numpy as np
 
 
+def save_table(num_c, num_f, err_arr, path):
+    pass
+
+
+def print_table(num_c, num_f, err_arr, title):
+    avg_err = np.sum(err_arr) / num_c
+
+    table = "|{:^30}|\n".format(title)
+    table += "|{:^9}|{:^10}|{:^9}|\n".format('Class', 'SSE', 'N')
+    table += "-" * 32 + "\n"
+    for idx in range(num_c):
+        table += "|{:^9}|{:^10}|{:^9}|\n".format(idx, np.round(err_arr[idx], 2), int(num_f[idx]))
+    table += "-" * 32 + "\n"
+    table += "Average SSE: {}".format(np.round(avg_err, 2))
+
+    print(table)
+
+
 def sse_per_class(feature, classifier):
     return np.sum(np.sum(np.power(classifier - feature, 2), axis=1), axis=0)
 
 
-def sse(feature, classifier, label_f, label_c, print_result=False):
+def sse(
+        feature,
+        classifier,
+        label_f,
+        label_c,
+        opt_print=False,
+        opt_save=False,
+        path=None,
+):
     num_c = label_c.shape[0]
     num_f = np.zeros(num_c)
     err_arr = np.zeros(num_c)
@@ -21,19 +47,24 @@ def sse(feature, classifier, label_f, label_c, print_result=False):
 
     avg_err = np.sum(err_arr) / num_c
 
-    if print_result:
-        table = "|{:^7}|{:^8}|{:^7}|\n".format('Class', 'SSE', 'N')
-        table += "-" * 26 + "\n"
-        for idx in range(num_c):
-            table += "|{:^7}|{:^8}|{:^7}|\n".format(idx, np.round(err_arr[idx], 2), int(num_f[idx]))
-        table += "-" * 26 + "\n"
-        table += "Average SSE: {}".format(np.round(avg_err, 2))
-        print(table)
+    if opt_print:
+        print_table(num_c, num_f, err_arr, '`toolkits.cluster.sse`')
+    if opt_save:
+        assert path is not None, 'Please enter the save path.'
+        save_table(num_c, num_f, err_arr, path)
 
     return avg_err
 
 
-def batch_sse(feature, classifier, label_f, label_c, print_result=False):
+def batch_sse(
+        feature,
+        classifier,
+        label_f,
+        label_c,
+        opt_print=False,
+        opt_save=False,
+        path=None,
+):
 
     assert len(label_c.shape) >= 2, "The input form is not batch."
 
@@ -52,13 +83,10 @@ def batch_sse(feature, classifier, label_f, label_c, print_result=False):
     err_arr = np.mean(err_arr, axis=0)
     avg_err = np.sum(err_arr) / num_c
 
-    if print_result:
-        table = "|{:^7}|{:^8}|{:^7}|\n".format('Class', 'SSE', 'N avg')
-        table += "-" * 26 + "\n"
-        for idx in range(num_c):
-            table += "|{:^7}|{:^8}|{:^7}|\n".format(idx, np.round(err_arr[idx], 2), int(num_f[idx]))
-        table += "-" * 26 + "\n"
-        table += "Average SSE: {}".format(np.round(avg_err, 2))
-        print(table)
+    if opt_print:
+        print_table(num_c, num_f, err_arr, '`toolkits.cluster.batch_sse`')
+    if opt_save:
+        assert path is not None, 'Please enter the save path.'
+        save_table(num_c, num_f, err_arr, path)
 
     return avg_err
