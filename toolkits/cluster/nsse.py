@@ -3,10 +3,16 @@ Normalized sum of squared errors (nSSE)
 """
 
 import numpy as np
+import pandas as pd
 
 
 def save_table(num_c, num_f, err_arr, path):
-    pass
+    df_list = []
+    for idx in range(num_c):
+        df_list.append([idx, np.round(err_arr[idx], 2), int(num_f[idx])])
+
+    df = pd.DataFrame(df_list, columns=['Class', 'nSSE', 'N'])
+    df.to_csv(path, index=False)
 
 
 def print_table(num_c, num_f, err_arr, title):
@@ -63,7 +69,7 @@ def nsse(
     if opt_print:
         print_table(num_c, num_f, err_arr, '`toolkits.cluster.nsse`')
     if opt_save:
-        assert path is not None, 'Please enter the save path.'
+        assert path is not None, "Please enter the save path."
         save_table(num_c, num_f, err_arr, path)
 
     return avg_err
@@ -99,7 +105,7 @@ def batch_nsse(
     if opt_print:
         print_table(num_c, num_f, err_arr, '`toolkits.cluster.batch_nsse`')
     if opt_save:
-        assert path is not None, 'Please enter the save path.'
+        assert path is not None, "Please enter the save path."
         save_table(num_c, num_f, err_arr, path)
 
     return avg_err
