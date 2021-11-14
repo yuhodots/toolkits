@@ -11,7 +11,7 @@ def save_table(num_c, num_f, err_arr, path):
     for idx in range(num_c):
         df_list.append([idx, np.round(err_arr[idx], 2), num_f[idx]])
 
-    df = pd.DataFrame(df_list,columns=['Class', 'SSE', 'N'])
+    df = pd.DataFrame(df_list, columns=['Class', 'SSE', 'N'])
     df.to_csv(path, index=False)
 
 
