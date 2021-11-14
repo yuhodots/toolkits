@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def configuration(parent_package="", top_path=None):
@@ -15,12 +15,12 @@ def configuration(parent_package="", top_path=None):
 def setup_package():
     metadata = dict(
         name='dl-toolkits',
-        version='1.0.1',
+        version='1.0.1.1',
         description='Deep Learning Analysis Toolkits',
         author=['Yuho Jeong', 'Solang Kim'],
         url='https://github.com/yuhodots/toolkits',
         install_requires=[],
-        packages=['toolkits'],
+        packages=find_packages(exclude=[]),
         keywords=['dl', 'toolkits'],
         python_requires='>=3',
     )

@@ -6,3 +6,14 @@ dl_toolkits.egg-info/dependency_links.txt
 dl_toolkits.egg-info/top_level.txt
 toolkits/__init__.py
 toolkits/setup.py
+toolkits/cluster/__init__.py
+toolkits/cluster/fc.py
+toolkits/cluster/hv.py
+toolkits/cluster/nsse.py
+toolkits/cluster/sse.py
+toolkits/pprint/__init__.py
+toolkits/tests/__init__.py
+toolkits/utils/__init__.py
+toolkits/utils/fm.py
+toolkits/viz/__init__.py
+toolkits/viz/tsne.py
