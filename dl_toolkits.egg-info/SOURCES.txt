@@ -9,9 +9,11 @@ toolkits/setup.py
 toolkits/cluster/__init__.py
 toolkits/cluster/fc.py
 toolkits/cluster/hv.py
+toolkits/cluster/nearc.py
 toolkits/cluster/nsse.py
 toolkits/cluster/sse.py
 toolkits/pprint/__init__.py
+toolkits/pprint/pred.py
 toolkits/tests/__init__.py
 toolkits/utils/__init__.py
 toolkits/utils/fm.py
