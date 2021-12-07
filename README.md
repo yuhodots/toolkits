@@ -1,8 +1,9 @@
-<h1 align="center">Toolkits</h1> <div align="center"> <strong> :hammer_and_wrench:&nbsp; Analysis tools useful for DL experiments &nbsp;:hammer_and_pick: </strong></div><br/>
-<div align="center"><img src="https://img.shields.io/badge/version-1.0.0-green.svg">&nbsp;<img src="https://img.shields.io/badge/LICENSE-TBD-orange.svg"></div><br/>
+<h1 align="center">DL Toolkits</h1> <div align="center"> <strong> :man_technologist:&nbsp; Analytical tools useful for deep learning experiments &nbsp;:woman_technologist: </strong></div><br/>
+<div align="center"><img src="https://img.shields.io/badge/version-1.0-green.svg">&nbsp;<img src="https://img.shields.io/badge/LICENSE-TBD-orange.svg"></div><br/>
+
+Whenever I analyzed the results of the DL experiment, I had to re-implement the analysis function every time. So, I implement frequently used functions in this repository. New features continue to be implemented, and simple examples of function usages can be found in the `examples` directory.
 
 
-Every time I analyze the results of the DL experiment, it is cumbersome to reimplement the analysis functions every time, so I implemented the functions I use frequently. This work is done with [Solang Kim](https://github.com/solangii) :raised_hands:
 
 ## Installation
 
@@ -23,22 +24,23 @@ print(toolkits.__version__)
 
 ### Visualization
 
-- t-SNE plot
+- [`viz.tsne`](https://github.com/yuhodots/toolkits/blob/main/toolkits/viz/tsne.py#L20): t-SNE plot
 
 ### Clustering quality
 
-- Sum of squared error(SSE) [^1]
-- SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
-- Measurements of feature clustering(R_fc)[^2]
-- Measurements of hyperplane variation(R_hv)[^2]
+- [`cluster.sse`](https://github.com/yuhodots/toolkits/blob/main/toolkits/cluster/sse.py#L36): Sum of squared error(SSE) [^1]
+- [`cluster.nsse`](https://github.com/yuhodots/toolkits/blob/main/toolkits/cluster/nsse.py#L48): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
 
 ### Pretty print
 
-- Simple print for predictions and true labels
+- [`pprint.pred`](https://github.com/yuhodots/toolkits/blob/main/toolkits/pprint/pred.py#L44): Simple print for predictions and true labels
+
+### PyTorch helper function
+
+- [`torch_helper.freeze_selected_param`](): Freeze the weight with the selected name
+- [`torch_helper.get_important_param_idx`](): Get the important parameters indices (large absolute value)[^2]
 
 ## References
 
-The method presented in the paper below was used.
-
 [^1]: Yoon, Sung Whan, et al. "Xtarnet: Learning to extract task-adaptive representation for incremental few-shot learning." *International Conference on Machine Learning*. PMLR, 2020.
-[^2]: Goldblum, Micah, et al. "Unraveling meta-learning: Understanding feature representations for few-shot tasks." *International Conference on Machine Learning*. PMLR, 2020.
+[^2]: Mazumder, Pratik, Pravendra Singh, and Piyush Rai. "Few-Shot Lifelong Learning." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 35. No. 3. 2021.
