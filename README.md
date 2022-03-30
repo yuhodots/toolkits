@@ -22,30 +22,30 @@ print(toolkits.__version__)
 
 ### Visualization
 
-- [`viz.tsne`](): t-SNE plot
+- [`viz.tsne`](https://github.com/yuhodots/toolkits/tree/main/examples/viz#tsne): t-SNE plot
 
 ### Clustering quality
 
-- [`cluster.sse`](): Sum of squared error(SSE) [^1]
-- [`cluster.batch_sse`](): Sum of squared error(SSE) for batch input
-- [`cluster.nsse`](): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
-- [`cluster.batch_nsse`](): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) for batch input
-- [`cluster.nearc`](): Top N nearest interfering centroid
+- [`cluster.sse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#sse): Sum of squared error(SSE) [^1]
+- [`cluster.batch_sse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#batch_sse): Sum of squared error(SSE) for batch input
+- [`cluster.nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
+- [`cluster.batch_nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#batch_nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) for batch input
+- [`cluster.nearc`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nearc): Top N nearest interfering centroid
 
 ### Pretty print
 
-- [`pprint.pred_summary`](): Simple print for predictions and true labels
+- [`pprint.pred_summary`](https://github.com/yuhodots/toolkits/tree/main/examples/pprint#pred_summary): Simple print for predictions and true labels
 
 ### Log parser
 
-- [`parse.between_lines`](): 
-- [`parse.between_lines_file`](): 
-- [`parse.between_lines_dir`](): 
+- [`parse.between_lines`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines): Extract the log between the two input sentences
+- [`parse.between_lines_on_file`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines_on_file): Extract the log between the two input sentences on the target file
+- [`parse.between_lines_on_dir`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines_on_dir): Extract the log between the two input sentences on the target directory
 
 ### PyTorch helper function
 
-- [`torch_helper.freeze_selected_param`](): Freeze the weights with the selected name
-- [`torch_helper.get_important_param_idx`](): Get important parameters indices[^2]
+- [`torch_helper.freeze_selected_param`](https://github.com/yuhodots/toolkits/tree/main/examples/torch_helper#freeze_selected_param): Freeze the weights with the selected name
+- [`torch_helper.get_important_param_idx`](https://github.com/yuhodots/toolkits/tree/main/examples/torch_helper#get_important_param_idx): Get important parameters indices[^2]
 
 ## References
 
