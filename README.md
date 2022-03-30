@@ -38,9 +38,9 @@ print(toolkits.__version__)
 
 ### Log parser
 
-- [`parse.between_lines`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines): Extract the log between the two input sentences
-- [`parse.between_lines_on_file`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines_on_file): Extract the log between the two input sentences on the target file
-- [`parse.between_lines_on_dir`](https://github.com/yuhodots/toolkits/tree/main/examples/parser#between_lines_on_dir): Extract the log between the two input sentences on the target directory
+- [`parse.between_lines`](https://github.com/yuhodots/toolkits/tree/main/examples/parse#between_lines): Extract the log between the two input sentences
+- [`parse.between_lines_on_file`](https://github.com/yuhodots/toolkits/tree/main/examples/parse#between_lines_on_file): Extract the log between the two input sentences on the target file
+- [`parse.between_lines_on_dir`](https://github.com/yuhodots/toolkits/tree/main/examples/parse#between_lines_on_dir): Extract the log between the two input sentences on the target directory
 
 ### PyTorch helper function
 
