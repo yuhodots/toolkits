@@ -17,7 +17,7 @@ def setup_package():
         name='dl-toolkits',
         version='1.0.1.2',
         description='Deep Learning Analysis Toolkits',
-        author=['Yuho Jeong', 'Solang Kim'],
+        author='Yuho Jeong',
         url='https://github.com/yuhodots/toolkits',
         install_requires=[],
         packages=find_packages(exclude=[]),
