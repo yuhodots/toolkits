@@ -7,7 +7,30 @@ import numpy as np
 import torch
 
 
+def freeze_selected_param(model, target):
+    """ Freeze layers which is in 'target'
+    notice) This feature has not yet been tested.
+    :param model: pytorch model
+    :param target: layer name list
+    :return: processed model
+    """
+    for param in model.parameters():
+        param.requires_grad = True
+
+    for name, param in model.named_parameters():
+        if name in target:
+            param.requires_grad = False
+
+    return model
+
+
 def get_important_param_idx(model, ratio, inverse=False):
+    """ Get indices of parameters which has large absolute value
+    :param model: pytorch model
+    :param ratio: ratio of important parameters
+    :param inverse: if inverse=True, select unimportant weights
+    :return: dictionary of the indices of selected parameters
+    """
     param_dict = dict(model.named_parameters())
 
     # Remove not trainable parameter from parameter dictionary
@@ -43,3 +66,4 @@ def get_important_param_idx(model, ratio, inverse=False):
         count += v
 
     return param_idx_dict
+
