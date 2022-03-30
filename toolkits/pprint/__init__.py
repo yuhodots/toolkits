@@ -2,8 +2,8 @@
 The `toolkits.pprint` module implements pretty print of the results.
 """
 
-from .pred import pred
+from .pred_summary import pred_summary
 
 __all__ = [
-    "pred",
+    "pred_summary",
 ]

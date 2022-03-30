@@ -3,8 +3,6 @@
 
 Whenever I analyzed the results of the DL experiment, I had to re-implement the analysis function every time. So, I implement frequently used functions in this repository. New features continue to be implemented, and simple examples of function usages can be found in the `examples` directory.
 
-
-
 ## Installation
 
 You can install the package with `pip` command. Python>=3 are supported.
@@ -24,21 +22,30 @@ print(toolkits.__version__)
 
 ### Visualization
 
-- [`viz.tsne`](https://github.com/yuhodots/toolkits/blob/main/toolkits/viz/tsne.py#L20): t-SNE plot
+- [`viz.tsne`](): t-SNE plot
 
 ### Clustering quality
 
-- [`cluster.sse`](https://github.com/yuhodots/toolkits/blob/main/toolkits/cluster/sse.py#L36): Sum of squared error(SSE) [^1]
-- [`cluster.nsse`](https://github.com/yuhodots/toolkits/blob/main/toolkits/cluster/nsse.py#L48): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
+- [`cluster.sse`](): Sum of squared error(SSE) [^1]
+- [`cluster.batch_sse`](): Sum of squared error(SSE) for batch input
+- [`cluster.nsse`](): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
+- [`cluster.batch_nsse`](): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) for batch input
+- [`cluster.nearc`](): Top N nearest interfering centroid
 
 ### Pretty print
 
-- [`pprint.pred`](https://github.com/yuhodots/toolkits/blob/main/toolkits/pprint/pred.py#L44): Simple print for predictions and true labels
+- [`pprint.pred_summary`](): Simple print for predictions and true labels
+
+### Log parser
+
+- [`parse.between_lines`](): 
+- [`parse.between_lines_file`](): 
+- [`parse.between_lines_dir`](): 
 
 ### PyTorch helper function
 
-- [`torch_helper.freeze_selected_param`](): Freeze the weight with the selected name
-- [`torch_helper.get_important_param_idx`](): Get the important parameters indices (large absolute value)[^2]
+- [`torch_helper.freeze_selected_param`](): Freeze the weights with the selected name
+- [`torch_helper.get_important_param_idx`](): Get important parameters indices[^2]
 
 ## References
 
