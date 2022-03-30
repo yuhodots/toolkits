@@ -41,7 +41,7 @@ def get_logit(feature, classifier, similarity):
     return logit
 
 
-def pred(
+def pred_summary(
         feature,
         classifier,
         label_f,
