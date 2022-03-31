@@ -18,22 +18,15 @@ def make_colors(y_set):
 
 
 def tsne(feature, classifier, label_f, label_c, save_path, perplexity=30, seed=42):
-    """t-SNE plot for features and classifiers
-        Parameters
-        ----------
-        feature : arrays of vectors (n_data, dim)
-            Feature vectors
-        classifier : arrays of vectors (n_classes, dim)
-            Classifier vectors
-        label_f : arrays of vectors
-            Labels of input feature vectors
-        label_c : arrays of vectors
-            Labels of input classifier vectors
-        save_path : string
-            Save path of t-SNE result
-        perplexity : int, default=30
-        seed : int, default=42
-        """
+    """ t-SNE plot for features and classifiers
+    :param feature: Feature vectors(n_data, dim)
+    :param classifier : Classifier vectors (n_classes, dim)
+    :param label_f : Label array of input feature vectors
+    :param label_c:  Label array of input classifier vectors
+    :param save_path: Save path of t-SNE result
+    :param perplexity: Perplexity
+    :param seed: Random seed
+    """
     model = TSNE(random_state=seed, perplexity=perplexity)
 
     x = np.concatenate([feature, classifier])
