@@ -69,13 +69,15 @@ def between_lines_on_file(file_path, beg, end, single=True):
     return _between_lines(lines, beg, end, single)
 
 
-def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None):
+def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None, make_file=False, result_file='result.txt'):
     """ Extract lines from `beg` to `end` from the target directory
     :param dir_path: directory path
     :param beg: starting point of parsing
     :param end: end point of parsing
     :param single: whether there are multiple sections to exist
     :param path_filter: search only files containing `path_filter`
+    :param make_file: boolean flag for making result file
+    :param result_file: result file name
     :return: dictionary (key: file path, value: extracted lines)
     """
     file_list = os.listdir(dir_path)
@@ -89,5 +91,13 @@ def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None):
 
     for file_path in file_list:
         file2lines[file_path] = between_lines_on_file(file_path, beg, end, single)
+
+    if make_file:
+        with open(result_file, 'w') as f:
+            for k, v in file2lines.items():
+                f.write(f"<target file: {k}>\n")
+                for item in v:
+                    f.write("\n".join(item))
+                f.write("\n")
 
     return file2lines

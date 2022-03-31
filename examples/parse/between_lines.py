@@ -8,7 +8,7 @@ def main():
         print("\n".join(item))
 
     dict_data = between_lines_on_dir('../dataset', beg="Organizational", end="Finance", single=True,
-                                     path_filter="document")
+                                     path_filter="document", make_file=True, result_file="../results/result.txt")
     for k, v in dict_data.items():
         print(k)
         for item in v:
