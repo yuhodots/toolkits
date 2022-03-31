@@ -1,0 +1,89 @@
+"Google" - wikipedia
+
+Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include a search engine, online advertising technologies, cloud computing, software, and hardware. It has been referred to as the "most powerful company in the world" and one of the world's most valuable brands due to its market dominance, data collection, and technological advantages in the area of artificial intelligence.[10][11][12] It is considered one of the Big Five American information technology companies, alongside Amazon, Apple, Meta and Microsoft.
+
+Google was founded on September 4, 1998, by Larry Page and Sergey Brin while they were PhD students at Stanford University in California. Together they own about 14% of its publicly listed shares and control 56% of the stockholder voting power through super-voting stock. The company went public via an initial public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly-owned subsidiary of Alphabet Inc.. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's Internet properties and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet.[13]
+
+The company's rapid growth since incorporation has included products, acquisitions, and partnerships beyond Google's core search engine, (Google Search). It offers services designed for work and productivity (Google Docs, Google Sheets, and Google Slides), email (Gmail), scheduling and time management (Google Calendar), cloud storage (Google Drive), instant messaging and video chat (Google Duo, Google Chat, and Google Meet), language translation (Google Translate), mapping and navigation (Google Maps, Waze, Google Earth, and Street View), podcast hosting (Google Podcasts), video sharing (YouTube), blog publishing (Blogger), note-taking (Google Keep and Jamboard), and photo organizing and editing (Google Photos). The company leads the development of the Android mobile operating system, the Google Chrome web browser, and Chrome OS (a lightweight, proprietary operating system based on the free and open-source Chromium OS operating system). Google has moved increasingly into hardware; from 2010 to 2015, it partnered with major electronics manufacturers in the production of its Google Nexus devices, and it released multiple hardware products in 2016, including the Google Pixel line of smartphones, Google Home smart speaker, Google Wifi mesh wireless router. Google has also experimented with becoming an Internet carrier (Google Fiber and Google Fi).
+
+Google.com is the most visited website worldwide. Several other Google-owned websites also are on the list of most popular websites, including YouTube and Blogger.[14] On the list of most valuable brands, Google is ranked second by Forbes[15] and fourth by Interbrand.[16] It has received significant criticism involving issues such as privacy concerns, tax avoidance, censorship, search neutrality, antitrust and abuse of its monopoly position.
+
+Early years
+
+Larry Page and Sergey Brin in 2003
+Google began in January 1996 as a research project by Larry Page and Sergey Brin when they were both PhD students at Stanford University in California.[17][18][19] The project initially involved an unofficial "third founder", Scott Hassan, the original lead programmer who wrote much of the code for the original Google Search engine, but he left before Google was officially founded as a company;[20][21] Hassan went on to pursue a career in robotics and founded the company Willow Garage in 2006.[22][23]
+
+While conventional search engines ranked results by counting how many times the search terms appeared on the page, they theorized about a better system that analyzed the relationships among websites.[24] They called this algorithm PageRank; it determined a website's relevance by the number of pages, and the importance of those pages that linked back to the original site.[25][26] Page told his ideas to Hassan, who began writing the code to implement Page's ideas.[20]
+
+Page and Brin originally nicknamed the new search engine "BackRub", because the system checked backlinks to estimate the importance of a site.[17][27][28] Hassan as well as Alan Steremberg were cited by Page and Brin as being critical to the development of Google. Rajeev Motwani and Terry Winograd later co-authored with Page and Brin the first paper about the project, describing PageRank and the initial prototype of the Google search engine, published in 1998. Héctor García-Molina and Jeff Ullman were also cited as contributors to the project.[29] PageRank was influenced by a similar page-ranking and site-scoring algorithm earlier used for RankDex, developed by Robin Li in 1996, with Larry Page's PageRank patent including a citation to Li's earlier RankDex patent; Li later went on to create the Chinese search engine Baidu.[30][31]
+
+Eventually, they changed the name to Google; the name of the search engine was a play on the word googol,[17][32][33] a very large number written 10100 (1 followed by 100 zeros), picked to signify that the search engine was intended to provide large quantities of information.[34]
+
+Google's homepage in 1998
+Google's original homepage had a simple design because the company founders had little experience in HTML, the markup language used for designing web pages.[35]
+The domain name www.google.com was registered on September 15, 1997,[36] and the company was incorporated on September 4, 1998. It was based in the garage of Susan Wojcicki[19] in Menlo Park, California. Craig Silverstein, a fellow PhD student at Stanford, was hired as the first employee.[19][37][38]
+
+Google was initially funded by an August 1998 investment of $100,000 from Andy Bechtolsheim,[17] co-founder of Sun Microsystems, a few weeks prior to September 7, 1998, the day Google was officially incorporated.[39][40] Google received money from three other angel investors in 1998: Amazon.com founder Jeff Bezos, Stanford University computer science professor David Cheriton, and entrepreneur Ram Shriram.[41] Between these initial investors, friends, and family Google raised around $1,000,000, which is what allowed them to open up their original shop in Menlo Park, California.[42]
+
+After some additional, small investments through the end of 1998 to early 1999,[41] a new $25 million round of funding was announced on June 7, 1999,[43] with major investors including the venture capital firms Kleiner Perkins and Sequoia Capital.[40]
+
+Growth
+In March 1999, the company moved its offices to Palo Alto, California,[44] which is home to several prominent Silicon Valley technology start-ups.[45] The next year, Google began selling advertisements associated with search keywords against Page and Brin's initial opposition toward an advertising-funded search engine.[46][19] To maintain an uncluttered page design, advertisements were solely text-based.[47] In June 2000, it was announced that Google would become the default search engine provider for Yahoo!, one of the most popular websites at the time, replacing Inktomi.[48][49]
+
+Google's first servers, showing lots of exposed wiring and circuit boards
+Google's first production server[50]
+In 2003, after outgrowing two other locations, the company leased an office complex from Silicon Graphics, at 1600 Amphitheatre Parkway in Mountain View, California.[51] The complex became known as the Googleplex, a play on the word googolplex, the number one followed by a googol zeroes. Three years later, Google bought the property from SGI for $319 million.[52] By that time, the name "Google" had found its way into everyday language, causing the verb "google" to be added to the Merriam-Webster Collegiate Dictionary and the Oxford English Dictionary, denoted as: "to use the Google search engine to obtain information on the Internet".[53][54] The first use of the verb on television appeared in an October 2002 episode of Buffy the Vampire Slayer.[55]
+
+Additionally, in 2001 Google's Investors felt the need to have a strong internal management, and they agreed to hire Eric Schmidt as the chairman and CEO of Google[42]
+
+Initial public offering
+On August 19, 2004, Google became a public company via an initial public offering. At that time Larry Page, Sergey Brin, and Eric Schmidt agreed to work together at Google for 20 years, until the year 2024.[56] The company offered 19,605,052 shares at a price of $85 per share.[57][58] Shares were sold in an online auction format using a system built by Morgan Stanley and Credit Suisse, underwriters for the deal.[59][60] The sale of $1.67 billion gave Google a market capitalization of more than $23 billion.[61]
+
+
+Eric Schmidt, CEO of Google from 2001 to 2011
+On November 13, 2006, Google acquired YouTube for $1.65 billion in Google stock,[62][63][64][65] On March 11, 2008, Google acquired DoubleClick for $3.1 billion, transferring to Google valuable relationships that DoubleClick had with Web publishers and advertising agencies.[66][67]
+
+By 2011, Google was handling approximately 3 billion searches per day. To handle this workload, Google built 11 data centers around the world with several thousand servers in each. These data centers allowed Google to handle the ever-changing workload more efficiently.[42]
+
+In May 2011, the number of monthly unique visitors to Google surpassed one billion for the first time.[68][69]
+
+In May 2012, Google acquired Motorola Mobility for $12.5 billion, in its largest acquisition to date.[70][71][72] This purchase was made in part to help Google gain Motorola's considerable patent portfolio on mobile phones and wireless technologies, to help protect Google in its ongoing patent disputes with other companies,[73] mainly Apple and Microsoft,[74] and to allow it to continue to freely offer Android.[75]
+
+2012 onward
+In June 2013, Google acquired Waze, a $966 million deal.[76] While Waze would remain an independent entity, its social features, such as its crowdsourced location platform, were reportedly valuable integrations between Waze and Google Maps, Google's own mapping service.[77]
+
+Google announced the launch of a new company, called Calico, on September 19, 2013, to be led by Apple Inc. chairman Arthur Levinson. In the official public statement, Page explained that the "health and well-being" company would focus on "the challenge of ageing and associated diseases".[78]
+
+
+Entrance of building where Google and its subsidiary Deep Mind are located at 6 Pancras Square, London
+On January 26, 2014, Google announced it had agreed to acquire DeepMind Technologies, a privately held artificial intelligence company from London.[79] Technology news website Recode reported that the company was purchased for $400 million, yet the source of the information was not disclosed. A Google spokesperson declined to comment on the price.[80][81] The purchase of DeepMind aids in Google's recent growth in the artificial intelligence and robotics community.[82]
+
+According to Interbrand's annual Best Global Brands report, Google has been the second most valuable brand in the world (behind Apple Inc.) in 2013,[83] 2014,[84] 2015,[85] and 2016, with a valuation of $133 billion.[86]
+
+On August 10, 2015, Google announced plans to reorganize its various interests as a conglomerate named Alphabet Inc. Google became Alphabet's largest subsidiary and the umbrella company for Alphabet's Internet interests. Upon completion of the restructuring, Sundar Pichai became CEO of Google, replacing Larry Page, who became CEO of Alphabet.[87][88][89]
+
+
+Current Google CEO, Sundar Pichai, with Prime Minister of India, Narendra Modi
+On August 8, 2017, Google fired employee James Damore after he distributed a memo throughout the company that argued bias and "Google's Ideological Echo Chamber" clouded their thinking about diversity and inclusion, and that it is also biological factors, not discrimination alone, that cause the average woman to be less interested than men in technical positions.[90] Google CEO Sundar Pichai accused Damore in violating company policy by "advancing harmful gender stereotypes in our workplace", and he was fired on the same day.[91][92][93]
+
+Between 2018 and 2019, tensions between the company's leadership and its workers escalated as staff protested company decisions on internal sexual harassment, Dragonfly, a censored Chinese search engine, and Project Maven, a military drone artificial intelligence, which had been seen as areas of revenue growth for the company.[94][95] On October 25, 2018, The New York Times published the exposé, "How Google Protected Andy Rubin, the 'Father of Android'". The company subsequently announced that "48 employees have been fired over the last two years" for sexual misconduct.[96] On November 1, 2018, more than 20,000 Google employees and contractors staged a global walk-out to protest the company's handling of sexual harassment complaints.[97][98] CEO Sundar Pichai was reported to be in support of the protests.[99] Later in 2019, some workers accused the company of retaliating against internal activists.[95]
+
+On March 19, 2019, Google announced that it would enter the video game market, launching a cloud gaming platform called Google Stadia.[100]
+
+On June 3, 2019, the United States Department of Justice reported that it would investigate Google for antitrust violations.[101] This led to the filing of an antitrust lawsuit in October 2020, on the grounds the company had abused a monopoly position in the search and search advertising markets.[102]
+
+In December 2019, former PayPal chief operating officer Bill Ready became Google's new commerce chief. Ready's role will not be directly involved with Google Pay.[103]
+
+In April 2020, due to the COVID-19 pandemic, Google announced several cost-cutting measures. Such measures included slowing down hiring for the remainder of 2020, except for a small number of strategic areas, recalibrating the focus and pace of investments in areas like data centers and machines, and non-business essential marketing and travel.[104]
+
+The 2020 Google services outages disrupted Google services: one in August that affected Google Drive among others, another in November affecting YouTube, and a third in December affecting the entire suite of Google applications. All three outages were resolved within hours.[105][106][107]
+
+In 2021, the Alphabet Workers Union was founded, comprising mostly of Google employees.[108]
+
+In January 2021, the Australian Government proposed legislation that would require Google and Facebook to pay media companies for the right to use their content. In response, Google threatened to close off access to its search engine in Australia.[109]
+
+In March 2021, Google reportedly paid $20 million for Ubisoft ports on Google Stadia.[110] Google spent "tens of millions of dollars" on getting major publishers such as Ubisoft and Take-Two to bring some of their biggest games to Stadia.[111]
+
+In April 2021, The Wall Street Journal reported that Google ran a years-long program called 'Project Bernanke' that used data from past advertising bids to gain an advantage over competing for ad services. This was revealed in documents concerning the antitrust lawsuit filed by ten US states against Google in December.[112]
+
+In September 2021, the Australian government announced plans to curb Google’s capability to sell targeted ads, claiming that the company has a monopoly on the market harming publishers, advertisers, and consumers.[113]
