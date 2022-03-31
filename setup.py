@@ -13,9 +13,14 @@ def configuration(parent_package="", top_path=None):
 
 
 def setup_package():
+    with open('README.md', encoding='utf-8') as f:
+        long_description = f.read()
+
     metadata = dict(
         name='dl-toolkits',
-        version='1.1.0',
+        version='1.1.1',
+        long_description=long_description,
+        long_description_content_type='text/markdown',
         description='Deep Learning Analysis Toolkits',
         author='Yuho Jeong',
         url='https://github.com/yuhodots/toolkits',
