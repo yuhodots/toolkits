@@ -32,7 +32,7 @@ def _between_lines(lines, beg, end, single=True):
     for idx, line in enumerate(lines):
         if line.startswith(beg):
             start_idx = idx
-        if line.startswith(end):
+        if line.startswith(end) and start_idx != -1:
             end_idx = idx
 
         if start_idx != -1 and end_idx != -1:
@@ -80,7 +80,10 @@ def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None, make
     :param result_file: result file name
     :return: dictionary (key: file path, value: extracted lines)
     """
-    file_list = os.listdir(dir_path)
+    file_list = list()
+    for (root, directories, files) in os.walk(dir_path):
+        for target_file in files:
+            file_list.append(os.path.join(root, target_file))
 
     if path_filter:
         file_list = [item for item in file_list if path_filter in item]
