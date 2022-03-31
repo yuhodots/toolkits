@@ -14,7 +14,7 @@ def _file2list(path):
     return lines
 
 
-def _between_lines(lines, beg, end, single=True):
+def _between_lines(lines, beg, end, single=False):
     """ Extract lines from `beg` to `end`
     :param lines: content list which is split for each newline
     :param beg: starting point of parsing
@@ -39,13 +39,16 @@ def _between_lines(lines, beg, end, single=True):
             assert end_idx >= start_idx, "must be 'end_idx >= start_idx'"
             indices.append([start_idx, end_idx])
 
+            start_idx = -1
+            end_idx = -1
+
             if single:
                 break
 
     return [lines[item[0]:item[1]] for item in indices]
 
 
-def between_lines(input_str, beg, end, single=True):
+def between_lines(input_str, beg, end, single=False):
     """ Extract lines from `beg` to `end`
     :param input_str: input string
     :param beg: starting point of parsing
@@ -57,7 +60,7 @@ def between_lines(input_str, beg, end, single=True):
     return _between_lines(lines, beg, end, single)
 
 
-def between_lines_on_file(file_path, beg, end, single=True):
+def between_lines_on_file(file_path, beg, end, single=False):
     """ Extract lines from `beg` to `end` from the target file
     :param file_path: file path
     :param beg: starting point of parsing
@@ -69,7 +72,7 @@ def between_lines_on_file(file_path, beg, end, single=True):
     return _between_lines(lines, beg, end, single)
 
 
-def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None, make_file=False, result_file='result.txt'):
+def between_lines_on_dir(dir_path, beg, end, single=False, path_filter=None, make_file=False, result_file='result.txt'):
     """ Extract lines from `beg` to `end` from the target directory
     :param dir_path: directory path
     :param beg: starting point of parsing
@@ -87,8 +90,6 @@ def between_lines_on_dir(dir_path, beg, end, single=True, path_filter=None, make
 
     if path_filter:
         file_list = [item for item in file_list if path_filter in item]
-
-    file_list = [os.path.join(dir_path, item) for item in file_list]
 
     file2lines = dict()
 
