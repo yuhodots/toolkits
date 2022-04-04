@@ -27,8 +27,8 @@ Extract the log between the two input sentences on the target file
 from toolkits.parse import between_lines_on_file
 
 list_data = between_lines_on_file('../dataset/document1.txt', beg="Organizational", end="Finance", single=True)
-	for item in list_data:
-		print("\n".join(item))
+for item in list_data:
+    print("\n".join(item))
       
 """
 Organizational structure
@@ -50,9 +50,9 @@ dict_data = between_lines_on_dir('../dataset', beg="Organizational", end="Financ
 
 """
 dict_data = {
-	"../dataset/document3.txt": [],
-	"../dataset/document2.txt": [],
-	"../dataset/document1.txt": [['Organizational structure', 'GitHub, Inc. was originally a flat organization with no middle managers; in other words, "everyone is a manager" (self-management).[16] Employees could choose to work on projects that interested them (open allocation), but salaries were set by the chief executive.[17][needs update]', 'In 2014, GitHub, Inc. introduced a layer of middle management amid harassment claims made against senior management. Tom Preston-Werner resigned as CEO amid the scandal.[18]', '']],
+    "../dataset/document3.txt": [],
+    "../dataset/document2.txt": [],
+    "../dataset/document1.txt": [['Organizational structure', 'GitHub, Inc. was originally a flat organization with no middle managers; in other words, "everyone is a manager" (self-management).[16] Employees could choose to work on projects that interested them (open allocation), but salaries were set by the chief executive.[17][needs update]', 'In 2014, GitHub, Inc. introduced a layer of middle management amid harassment claims made against senior management. Tom Preston-Werner resigned as CEO amid the scandal.[18]', '']],
 }
 """
 ```
@@ -63,8 +63,8 @@ from toolkits.parse import between_lines_on_dir
 dict_data = between_lines_on_dir('../dataset', beg="Organizational", end="Finance", single=True, path_filter="document", make_file=True, result_file="../results/result.txt")
 
 for k, v in dict_data.items():
-	print(k)
-  	for item in v:
+    print(k)
+    for item in v:
     	print("\n".join(item))
 
 """
