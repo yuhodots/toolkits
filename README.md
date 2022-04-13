@@ -1,4 +1,4 @@
-<h1 align="center">DL Toolkits</h1> <div align="center"> <strong> :man_technologist:&nbsp; Analytical tools useful for deep learning experiments &nbsp;:woman_technologist: </strong></div><br/>
+<h1 align="center">DL Toolkits</h1> <div align="center"> <strong> :man_technologist:&nbsp; Analytical tools for deep learning experiments &nbsp;:woman_technologist: </strong></div><br/>
 <div align="center"><img src="https://img.shields.io/badge/version-1.1-green.svg">&nbsp;<img src="https://img.shields.io/badge/LICENSE-MIT License-orange.svg"></div><br/>
 
 Whenever I analyzed the results of the DL experiment, I had to re-implement the analysis function every time. So, I implement frequently used functions in this repository. New features continue to be implemented, and simple examples of function usages can be found in the `examples` directory.
