@@ -18,5 +18,5 @@ freeze_selected_param(model, target=freeze_list)
 Get important parameter indices
 
 ``` python
-idx = self.get_session_trainable_param_idx(model, 0.1)
+idx = self.get_important_param_idx(model, 0.1)
 ```
