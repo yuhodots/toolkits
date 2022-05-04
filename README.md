@@ -31,6 +31,7 @@ print(toolkits.__version__)
 - [`cluster.nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
 - [`cluster.batch_nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#batch_nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) for batch input
 - [`cluster.nearc`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nearc): Top N nearest interfering centroid
+- [`cluster.rfc`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#rfc): Feature space clustering quality(R_fc) [^3]
 
 ### Pretty print
 
@@ -51,3 +52,4 @@ print(toolkits.__version__)
 
 [^1]: Yoon, Sung Whan, et al. "Xtarnet: Learning to extract task-adaptive representation for incremental few-shot learning." *International Conference on Machine Learning*. PMLR, 2020.
 [^2]: Mazumder, Pratik, Pravendra Singh, and Piyush Rai. "Few-Shot Lifelong Learning." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 35. No. 3. 2021.
+[^3]: Goldblum, Micah, et al. "Unraveling meta-learning: Understanding feature representations for few-shot tasks." *International Conference on Machine Learning*. PMLR, 2020.

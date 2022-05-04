@@ -150,3 +150,17 @@ nearc(feature, label_f, 5, opt_print=True)
     3    |  135     103     155     298     282   ...
 """
 ```
+
+### rfc
+
+> rfc(feature, label)
+
+Feature space clustering quality(R_fc)
+
+``` python
+from toolkits.utils import load
+from toolkits.cluster import rfc
+
+feature, classifier, label_f, label_c = load('../dataset/classification300.npz')
+print(rfc(feature, label_f))    # = 361.05813174016123
+```
