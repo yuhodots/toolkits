@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dl-toolkits
-Version: 1.1.1
+Version: 1.1.2
 Summary: Deep Learning Analysis Toolkits
 Home-page: https://github.com/yuhodots/toolkits
 Author: Yuho Jeong
@@ -11,7 +11,7 @@ Requires-Python: >=3
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-<h1 align="center">DL Toolkits</h1> <div align="center"> <strong> :man_technologist:&nbsp; Analytical tools useful for deep learning experiments &nbsp;:woman_technologist: </strong></div><br/>
+<h1 align="center">DL Toolkits</h1> <div align="center"> <strong> :man_technologist:&nbsp; Analytical tools for deep learning experiments &nbsp;:woman_technologist: </strong></div><br/>
 <div align="center"><img src="https://img.shields.io/badge/version-1.1-green.svg">&nbsp;<img src="https://img.shields.io/badge/LICENSE-MIT License-orange.svg"></div><br/>
 
 Whenever I analyzed the results of the DL experiment, I had to re-implement the analysis function every time. So, I implement frequently used functions in this repository. New features continue to be implemented, and simple examples of function usages can be found in the `examples` directory.
@@ -44,6 +44,7 @@ print(toolkits.__version__)
 - [`cluster.nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) [^1]
 - [`cluster.batch_nsse`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#batch_nsse): SSE normalized by the squared distance to the nearest interfering centroid(nSSE) for batch input
 - [`cluster.nearc`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#nearc): Top N nearest interfering centroid
+- [`cluster.rfc`](https://github.com/yuhodots/toolkits/tree/main/examples/cluster#rfc): Feature space clustering quality(R_fc) [^3]
 
 ### Pretty print
 
@@ -64,5 +65,6 @@ print(toolkits.__version__)
 
 [^1]: Yoon, Sung Whan, et al. "Xtarnet: Learning to extract task-adaptive representation for incremental few-shot learning." *International Conference on Machine Learning*. PMLR, 2020.
 [^2]: Mazumder, Pratik, Pravendra Singh, and Piyush Rai. "Few-Shot Lifelong Learning." *Proceedings of the AAAI Conference on Artificial Intelligence*. Vol. 35. No. 3. 2021.
+[^3]: Goldblum, Micah, et al. "Unraveling meta-learning: Understanding feature representations for few-shot tasks." *International Conference on Machine Learning*. PMLR, 2020.
 
 
