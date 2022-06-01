@@ -18,7 +18,7 @@ def setup_package():
 
     metadata = dict(
         name='dl-toolkits',
-        version='1.1.2',
+        version='1.1.3',
         long_description=long_description,
         long_description_content_type='text/markdown',
         description='Deep Learning Analysis Toolkits',

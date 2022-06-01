@@ -4,7 +4,7 @@ import numpy as np
 def rfc(
     feature: np.array,
     label: np.array,
-) -> int:
+) -> float:
     num_c = np.array(list(set(label))).shape[0]
     num_f = np.zeros(num_c)
     centroid = np.zeros([num_c, feature.shape[-1]])

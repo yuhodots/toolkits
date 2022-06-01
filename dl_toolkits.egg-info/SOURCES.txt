@@ -12,6 +12,8 @@ toolkits/cluster/goldblum.py
 toolkits/cluster/nearc.py
 toolkits/cluster/nsse.py
 toolkits/cluster/sse.py
+toolkits/linalg/__init__.py
+toolkits/linalg/pca.py
 toolkits/parse/__init__.py
 toolkits/parse/between_lines.py
 toolkits/pprint/__init__.py
